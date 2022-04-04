@@ -11,5 +11,13 @@
 header {
   width: 100vh;
   height: 100vh;
-  background-image: url("/algumaimg.png");
+  background-image: url("./assets/image/entrance.jpg");
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-image: url("./assets/image/shelf.jpg");
 }
