@@ -10,6 +10,7 @@
 
 body {
   background-color: #4e4b4b;
+  color: rgb(244, 241, 237);
 }
 .logo {
   padding-left: 10px;
@@ -20,8 +21,19 @@ h1 {
 }
 
 header {
-  width: 100vh;
+  width: 150vh;
   height: 100vh;
+  color: rgb(244, 241, 237);
+}
+
+.reception {
+  max-width: 970px;
+  padding-top: 10px;
+}
+
+.announcement {
+  max-width: 970px;
+  padding-top: 30px;
 }
 
 .menu-container {
@@ -40,7 +52,6 @@ img {
   flex-direction: column;
   align-items: center;
   position: relative;
-  background-image: url("./assets/image/shelf.jpg");
 }
 
 .meet {
@@ -48,5 +59,4 @@ img {
   flex-direction: column;
   align-items: center;
   position: relative;
-  background-image: url("./assets/image/comfort.jpg");
 }
