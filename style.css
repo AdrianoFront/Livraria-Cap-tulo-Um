@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
 
 /* Global */
-* {
+/** {
   margin: 0;
   padding: 0;
   border: 0;
-}
+}*/
 
 body {
   background-color: #4e4b4b;
@@ -15,9 +15,8 @@ body {
 }
 
 .estrutura-geral {
-  max-width: 700px;
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   flex-direction: column;
   align-items: center;
   /*flex-wrap: wrap;*/
@@ -26,10 +25,22 @@ body {
 
 .logo {
   /*padding-left: 10px;*/
+  justify-content: flex-start;
+}
+
+.menu {
+  justify-content: flex-end;
 }
 
 h1 {
-  padding: 40px 0px 0px 10px;
+  padding: 40px 0px 50px 0px;
+}
+
+.header-entrance {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  align-items: left;
 }
 
 .container-image {
@@ -50,17 +61,15 @@ header {
 
 .menu-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
+
+/*Segunda parte*/
 
 .stage-two {
   padding-top: 50px;
   display: flex;
   justify-content: center;
-}
-
-.segundo-titulo {
-  font-size: 40px;
 }
 
 .sobre-livraria {
@@ -70,7 +79,7 @@ header {
 
 .garota-retrato {
   float: left;
-  max-width: 300px;
+  max-width: 400px;
 }
 
 .texto {
@@ -80,10 +89,24 @@ header {
   padding-left: 10px;
 }
 
-.visit {
-  max-width: 350px;
+.segundo-titulo {
+  font-size: 40px;
 }
 
-.example {
-  max-width: 350px;
+/*Terceira parte*/
+
+.stage-three {
+}
+
+.open-text {
+}
+
+.button {
+}
+
+.entrada {
+}
+
+.visit {
+  max-width: 300px;
 }
