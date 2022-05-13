@@ -16,21 +16,27 @@ body {
 
 .estrutura-geral {
   display: flex;
-  /*justify-content: center;*/
   flex-direction: column;
   align-items: center;
-  /*flex-wrap: wrap;*/
-  /*padding: 30px 0 0 30px;*/
+}
+
+.menu-container {
+  width: 800px;
+  display: flex;
+  justify-content: center;
 }
 
 .menu-container .logo {
-  width: 100%;
-  float: left;
+  width: 70%;
+  display: flex;
+  justify-content: center;
 }
 
-/*.menu {
-  justify-content: flex-end;
-}*/
+.menu-container .menu {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
 
 h1 {
   padding: 40px 0px 50px 0px;
@@ -57,11 +63,6 @@ header {
 .reception {
   max-width: 970px;
   padding-top: 10px;
-}
-
-.menu-container {
-  display: flex;
-  justify-content: center;
 }
 
 /*Segunda parte*/
