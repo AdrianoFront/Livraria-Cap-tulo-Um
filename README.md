@@ -5,6 +5,8 @@ Unidades como VH e VW foram as bases dessa proposta.
 
 Status do projeto: concluído.
 
+Navegue neste link: https://livrariapaginaum.netlify.app/
+
 
 ![imagem de abertura do site](https://raw.githubusercontent.com/AdrianoFront/Livraria-Cap-tulo-Um/main/pagina.um.png)
 
