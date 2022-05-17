@@ -1,108 +1,137 @@
 /*Google Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import "assets/css/reset.css";
 
-/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #4e4b4b;
   color: rgb(244, 241, 237);
   font-family: sans-serif;
 }
 
-.estrutura-geral {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.menu-container {
-  width: 100vh;
-  display: flex;
-  justify-content: space-between;
-}
-
-.menu-container .logo {
-  width: 70%;
-  display: flex;
-  justify-content: center;
-}
-
-.menu-container .menu {
-  width: 70%;
-  display: flex;
-  justify-content: center;
-}
-
 h1 {
-  padding: 40px 0px 50px 0px;
+  font-size: 3em;
 }
 
-.header-entrance {
-  display: flex;
-  justify-content: left;
-  flex-direction: column;
-  align-items: left;
+.logo {
+  font-size: 1.5em;
 }
 
-.container-image {
+ul {
+  list-style: none;
+}
+
+.nav-container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  border: 5px solid #727270;
+  border-radius: 8px;
+  max-width: 100%;
+  padding: 5vh 10vh;
+  margin: 5px;
+}
+
+.nav-options {
+  padding-left: 10vh;
+}
+
+.nav-container .nav-options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu > li {
+  position: relative;
+}
+
+.menu > li a {
+  padding: 17px;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu > li:hover {
+  background: #646465;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header .reception {
+  display: flex;
+  justify-content: center;
+  width: 70vmax;
+}
+
+.about {
+  padding-top: 10vh;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-header {
-  color: rgb(244, 241, 237);
+.portrait-girl {
+  width: 30vmax;
 }
 
-.reception {
-  max-width: 970px;
-  padding-top: 10px;
+.about .text {
+  max-width: 37vmax;
+  padding-left: 30px;
 }
 
-/*Segunda parte*/
-
-.stage-two {
-  padding-top: 50px;
+.comics {
+  padding-top: 10vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.sobre-livraria {
+.brochure {
+  width: 30vmax;
+}
+
+.comics .text {
+  max-width: 37vmax;
+  padding-left: 30px;
+}
+
+.depositions {
+  background-color: #646465;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 5vh 5vh;
 }
 
-.garota-retrato {
-  float: left;
-  max-width: 400px;
+.first-line {
+  max-width: 36vmax;
 }
 
-.texto {
-  float: right;
-  vertical-align: top;
-  max-width: 300px;
-  padding-left: 10px;
+.first-line .opinion {
+  font-size: 2em;
+  max-width: 36vmax;
 }
 
-.segundo-titulo {
-  font-size: 40px;
+.second-line {
+  max-width: 36vmax;
 }
 
-/*Terceira parte*/
-
-.stage-three {
-}
-
-.open-text {
-}
-
-.button {
-}
-
-.entrada {
-}
-
-.visit {
-  max-width: 300px;
+.second-line .opinion {
+  font-size: 2em;
+  max-width: 36vmax;
 }

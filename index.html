@@ -9,69 +9,70 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
-<!--Abertura do site-->
-
 <body>
-
-  <nav class="menu-container">
-    <div class="logo"><span> Capítulo Um</span></div>
-    <div class="menu"><a href="#">sobre</a> </div>
+  <nav class="nav-container">
+    <h2 class="logo">
+      <span>Capítulo</span> <span>Um</span>
+    </h2>
+    <div class="nav-options">
+      <ul class="menu">
+        <li><a href="#">Quem somos</a></li>
+        <li><a href="#">Sobre</a>
+        <li><a href="#">Quadrinhos</a></li>
+        <li><a href="#">Livros raros</a></li>
+      </ul>
+    </div>
   </nav>
 
-  <div class="estrutura-geral">
-
-    <header>
-      <div class="header-entrance">
-        <h1>Um mundo de livros <br> feito para leitores</h1>
-        <div class="container-image">
-          <img class="reception" src="./assets/img/entrance.jpg" />
-        </div>
-      </div>
-    </header>
-
-    <!--Segunda parte-->
-
-    <div class="stage-two">
-      <div class="sobre-livraria">
-        <img class="garota-retrato" src="./assets/alireza-khatami-unsplash.jpg" alt="Entrada da livraria" />
-      </div>
-      <div class="texto">
-        <h3 class="segundo-titulo">Sobre a livraria</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate commodi mollitia voluptates. Distinctio quia quasi molestias ratione iste vitae obcaecati aliquam.
-        </p>
+  <header class="header">
+    <div class="header-entrance">
+      <h1>Um mundo de livros <br> feito para leitores</h1>
+      <div class="container-image">
+        <img class="reception" src="./assets/img/entrance.jpg" />
       </div>
     </div>
+  </header>
 
-    <!--Terceira parte-->
-    <div class="stage-three">
-      <div class="open-text">
-        <h3>Visite a livraria</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate commodi mollitia voluptates. Distinctio quia quasi molestias ratione iste vitae obcaecati aliquam.</p>
-        <button name="button">Saiba mais</button>
-      </div>
-      <div class="entrada">
-        <img class="visit" src="./assets/amadeus-unsplash.jpg" alt="Visite a livraria">
-      </div>
+  <section class="about">
+    <div>
+      <img class="portrait-girl" src="./assets/img/alireza-khatami-unsplash.jpg" alt="Entrada da livraria" />
     </div>
-
-    <br>
-
-
-    <div class="variedades">
-      <div class="left-side">
-        <div>
-          <img class="example" src="./assets/aris-sfakianakis-unsplash.jp" alt="exemplares">
-        </div>
-      </div>
-      <div class="right-side">
-        <div class="text-area">
-          <h3>Nossos livros</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate commodi mollitia voluptates. Distinctio quia quasi molestias ratione iste vitae obcaecati aliquam.</p>
-          <button name="button">Saiba mais</button>
-        </div>
-      </div>
+    <div class="text">
+      <h3 class="segundo-titulo">Sobre a livraria</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate commodi mollitia voluptates. Voluptate commodi mollitia voluptates. Distinctio quia quasi molestias ratione iste vitae obcaecati aliquam sit amet consectetur adipisicing elit. Voluptate commodi mollitia voluptates.
+      </p>
     </div>
-  </div>
+  </section>
+
+  <section class="comics">
+    <div>
+      <img class="brochure" src="./assets/img/amadeus-unsplash.jpg" alt="Entrada da livraria" />
+    </div>
+    <div class="text">
+      <h3 class="second-title">Quadrinhos</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate commodi mollitia voluptates. Voluptate commodi mollitia voluptates. Distinctio quia quasi molestias ratione iste vitae obcaecati aliquam sit amet consectetur adipisicing elit. Voluptate commodi mollitia voluptates.
+      </p>
+    </div>
+  </section>
+
+  <article class="depositions">
+    <div class="first-line">
+      <p class="opinion">"Não consigo imaginar um lugar mais aconchegante."</p>
+      <br>
+      <p>- Folha de M.J.</p>
+    </div>
+    <div class="second-line">
+      <p class="opinion">"Se eu pudesse, moraria lá. Já pedi, mas não deixaram."</p>
+      <br>
+      <p>- E. S. Aliwoski</p>
+    </div>
+  </article>
+
+
+
+
+
+
 </body>
 
 </html>
